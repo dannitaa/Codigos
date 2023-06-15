@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;500&display=swap');
+
+ 
+
+*{
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+      
+    html, body{
+        height: 100%;
+    }
+
+
+
+    .contenidoH {
+      padding: 35px 0;
+      background-color: #775343;
+      display: flex;
+      height: 80px;
+     
+    }
+
+    .menu {
+      position: absolute;
+      top: 0; 
+      left: 20px;
+      right: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      
+      font-family: 'Darumadrop One', cursive;
+      font-size: 45px;
+      color: #ffffff;
+      text-decoration: none;
+      padding-left: 20px;
+      padding-bottom: 15px;
+
+    }
+
+
+  .menu .navbar ul li {
+    position: relative;
+   float: left;
+   size: 100px;
+   top: 3px;
+    
+   padding: 20px;
+  padding-left: 30px;
+  display: block;
+  }
+
+  
+a {
+  color: #ffffff;
+  list-style: none;
+}
+
+.divEscribir a {
+  color: #775343;
+  font-family: 'Geologica', sans-serif;
+}
+
+  .divBlog p{
+    font-family: 'Geologica', sans-serif;
+  }
+
